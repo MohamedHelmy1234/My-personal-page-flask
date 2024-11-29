@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}
+Home page
+{% endblock title %}
+{% block content %}
+    <h1>Welcome to my personal page</h1>
+    <p>please choose one of the following to proceed</p>
+    <button class="btn btn-primary text-light m-1" onclick="window.location.href = '/about';">About</button>
+    <button class="btn btn-primary text-light m-1" onclick="window.location.href = '/contact';">Contact</button>
+{% endblock content %}
